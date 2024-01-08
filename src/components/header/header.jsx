@@ -3,7 +3,6 @@ import Box from '@mui/material/Box'
 import Container from '@mui/material/Container'
 import Logo from '../logo/logo'
 import Navigation from './navigation.header'
-import DropdownMenu from '../dropdown-menu/dropdown-menu'
 import WalletModal from '../modals/connect-walet-modal/connect-wallet.modal'
 import ButtonPrimary from '../buttons/primary.button'
 
@@ -41,7 +40,6 @@ const Header = () => {
             </Box>
             <Navigation />
             <Box sx={{ display: 'flex' }}>
-                <DropdownMenu />
                 <ButtonPrimary
                     text="Connect wallet"
                     onClick={handleModalOpen}

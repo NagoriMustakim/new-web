@@ -5,8 +5,8 @@ import { Link, useLocation } from 'react-router-dom'
 
 const menuItems = [
     { text: 'Home', path: '/' },
-    { text: 'Services', path: '/services' },
-    { text: 'Our Partner', path: '/partners' },
+    { text: 'Services', path: '/' },
+    { text: 'Our Partner', path: '/' },
 ]
 
 const Navigation = () => {
